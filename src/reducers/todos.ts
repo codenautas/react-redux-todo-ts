@@ -32,7 +32,8 @@ export const todoReducers = {
   )
 }
 
-type AF = ActionsFrom<State, typeof todoReducers>;
+// @ts-ignore
+type ActionsTodo = ActionsFrom<typeof todoReducers>;
 
 /* 
  * Reducer takes 2 arguments

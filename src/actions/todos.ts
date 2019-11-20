@@ -11,8 +11,8 @@ let nextId = 0
  * Typescript understands enum better 
  */
 export enum ActionTypes {
-  ADD_TODO = '[todos] ADD_TODO',
-  TOGGLE_TODO = '[todos] TOGGLE_TODO'
+  ADD_TODO = 'ADD_TODO',
+  TOGGLE_TODO = 'TOGGLE_TODO'
 }
 
 /*

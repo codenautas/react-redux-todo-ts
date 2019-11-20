@@ -7,6 +7,7 @@ import store from './store'
 import './index.css'
 
 ReactDOM.render(
+  // @ts-ignore
   <Provider store={store}>
     <App />
   </Provider>,
