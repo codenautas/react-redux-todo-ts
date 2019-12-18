@@ -1,7 +1,6 @@
 import Todo from '../models/Todo'
-// import { ActionTypes, Action } from '../actions/todos'
 
-import { createReducer, ActionsFrom } from 'redux-typed-reducer';
+import { createReducer } from 'redux-typed-reducer';
 
 // Define our State interface for the current reducer
 export interface State {
@@ -31,9 +30,6 @@ export const todoReducers = {
     )
   )
 }
-
-// @ts-ignore
-type ActionsTodo = ActionsFrom<typeof todoReducers>;
 
 /* 
  * Reducer takes 2 arguments
